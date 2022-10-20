@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>
+		Area
+	</title>
+</head>
+
+<body style="text-align:center;"
+	id="body">
+	<h1>Area of tringle Sides 5,6 & 7</h1>
+	<p id="GFG_UP"
+	style="font-size: 15px;
+			font-weight: bold;">
+	</p>
+	<p id="GFG_DOWN"
+	style="color:green;
+			font-size: 20px;
+			font-weight: bold;">
+	</p>
+	<script>
+var side1 = 5; 
+var side2 = 6; 
+var side3 = 7; 
+var s = (side1 + side2 + side3)/2;
+var area =  Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
+console.log(area);
+document.write("Area : " + area);		
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>
+		Leap year
+	</title>
+</head>
+
+<body style="text-align:center;"
+	id="body">
+	<h1>Check Leap Year</h1>
+	
+	<script>
+	var year = prompt("Enter Year");
+	leapyear(year);
+function leapyear(year)
+{
+  var result = (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+	if(result){
+		document.write(year +" is leap year");	
+	}else
+	{
+		document.write(year +" is not a leap year");	
+	}
+}
+	
+	</script>
+</body>
+
+</html>
