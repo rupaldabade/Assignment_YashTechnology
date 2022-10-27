@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>
+		sunday
+	</title>
+</head>
+
+<body style="text-align:center;"
+	id="body">
+	<h1>A Program to find 1st January is being a Sunday between 2014 and 2050.</h1>
+	
+	<script>
+	
+console.log('--------------------');
+for (var year = 2014; year <= 2050; year++)
+    {
+    var d = new Date(year, 0, 1);
+    if ( d.getDay() === 0 )
+        document.write("<br>1st January is being a Sunday  "+year);
+    }
+console.log('--------------------');
+	</script>
+</body>
+
+</html>

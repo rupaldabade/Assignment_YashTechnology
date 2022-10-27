@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>
+		number
+	</title>
+</head>
+
+<body style="text-align:center;"
+	id="body">
+	<h1>Guess a number</h1>
+	
+	<script>
+const num = Math.ceil(Math.random() * 10);
+document.write("Random No : "+num);
+ const gnum = prompt('Guess the number between 1 and 10 inclusive');
+ if (gnum == num)
+   console.log('Good Work');
+  else
+   document.write('<br>Not matched");
+	</script>
+</body>
+
+</html>
